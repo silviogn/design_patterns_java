@@ -1,4 +1,4 @@
-package Section2;
+package section2;
 
 class Rectangle {
     protected int width;

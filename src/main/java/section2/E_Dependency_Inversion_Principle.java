@@ -1,4 +1,4 @@
-package Section2;
+package section2;
 // A. High-level modules should not depend on low-level modules.
 // Both should depend on abstractions.
 
@@ -62,6 +62,9 @@ class Research { // high level model
 }
 
 public class E_Dependency_Inversion_Principle {
+
+
+
     public static void main(String[] args) {
         Person parent = new Person("John");
         Person child1 = new Person("Chris");

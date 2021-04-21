@@ -1,11 +1,8 @@
-package Section2;
+package section2;
 
 // recommendation of how segregate interfaces
 // not put moore than the client is expecting
 
-
-
-import javax.print.Doc;
 
 public class D_Interface_Segregation_Principle {
 }
