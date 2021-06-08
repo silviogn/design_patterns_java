@@ -22,12 +22,12 @@ class Person
 
 class PersonBuilder<SELF extends PersonBuilder<SELF>>
 {
-    protected Person person = new Person();
+    protected Person person2 = new Person();
 
     // critical to return SELF here
     public SELF withName(String name)
     {
-        person.name = name;
+        person2.name = name;
         return self();
     }
 
@@ -41,7 +41,7 @@ class PersonBuilder<SELF extends PersonBuilder<SELF>>
 
     public Person build()
     {
-        return person;
+        return person2;
     }
 }
 
@@ -50,7 +50,7 @@ class EmployeeBuilder
 {
     public EmployeeBuilder worksAs(String position)
     {
-        person.position = position;
+        person2.position = position;
         return self();
     }
 
